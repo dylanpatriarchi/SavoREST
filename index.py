@@ -158,7 +158,7 @@ response = input(f"\nWelcome to SavoREST Framework! type --help for some tips :)
 if response == '--help':
     print(f"\nHere the commands:")
     print(f"\nCreate <filepath> <projectname> | Create the API REST")
-    print(f"\Syntax                           | View the syntax for create you API")
+    print(f"\nSyntax                           | View the syntax for create you API")
 elif response == 'Syntax':
     print(f"\nView: https://github.com/dylanpatriarchi/SavoREST for file syntax")
 else:
