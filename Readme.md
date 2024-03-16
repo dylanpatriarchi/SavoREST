@@ -21,7 +21,7 @@ python index.py
 ```
 4. Digit 
 ```bash 
-Create path/to/your/file/..rest Name_project
+Create path/to/your/file/.rrest Name_project
 ``` 
 and see the result!
 
