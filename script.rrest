@@ -1,0 +1,10 @@
+resources{
+    define_resource: accounts ['CREATE' = true, 'POST' = true, 'UPDATE' = true, 'DELETE' = true] && account && user
+    define_resource: nomerisorsa2 ['CREATE' = false, 'POST' = true, 'UPDATE' = true, 'DELETE' = false] && nomeuri2 && nometabellaDb
+    define_resource: nomerisorsa3 ['CREATE' = false, 'POST' = true, 'UPDATE' = true, 'DELETE' = false] && nomeuri3 && nometabellaDb
+}
+
+accounts{
+    define_account: name1, role1, password1, email1
+    define_account: name2, role2, password2, email2
+}
