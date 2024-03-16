@@ -14,11 +14,16 @@ SavoREST is a lightweight framework for creating RESTful APIs in Lumen. It is de
 To get started with SavoREST, follow these steps:
 
 1. Clone the repository `pip install savorest`.
-2. Create your API by defining endpoints using SavoREST's intuitive syntax, in the next section i'll explain the Syntax.
+2. Create you file .rrest by defining endpoints using SavoREST's intuitive syntax, in the next section i'll explain the Syntax.
 3. Start your SavoREST with 
 ```bash
 python index.py
 ```
+4. Digit 
+```bash 
+Create path/to/your/file/..rest Name_project
+``` 
+and see the result!
 
 ## Syntax
 
